@@ -15,6 +15,6 @@ eg. The filename of second background image in introduction module should be `bg
  	// module_
  	intro = introduction 
  	
- 	// inde should begin with 1 .
+ 	// index  should begin with 1 .
  	
  ```
