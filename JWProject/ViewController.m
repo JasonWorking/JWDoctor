@@ -39,7 +39,13 @@
     self.imagePlayerView.edgeInsets = UIEdgeInsetsZero;
     
     [self.imagePlayerView reloadData];
+    
 
+}
+
+- (void)buttonTapped:(UIButton *)button
+{
+    NSLog(@"button tapped!");
 }
 
 
