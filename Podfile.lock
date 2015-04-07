@@ -28,6 +28,7 @@ PODS:
   - EARestrictedScrollView (0.1.0)
   - EGOCache (2.1.2)
   - FXBlurView (1.6.3)
+  - ImagePlayerView (1.0.2)
   - MJRefresh (1.4.3)
   - NYSegmentedControl (1.0.3)
   - pop (1.0.7)
@@ -42,6 +43,7 @@ DEPENDENCIES:
   - EAIntroView (~> 2.7.0)
   - EGOCache (~> 2.1)
   - FXBlurView (~> 1.6.3)
+  - ImagePlayerView (~> 1.0.2)
   - MJRefresh (~> 1.4.3)
   - NYSegmentedControl (~> 1.0.3)
   - pop (~> 1.0.7)
@@ -55,10 +57,11 @@ SPEC CHECKSUMS:
   EARestrictedScrollView: 5ab3eadd9ea55282cc72df0daecb09803059e3a0
   EGOCache: e7bdb2bf15a2ad23bf6c67c664c9fc3694652482
   FXBlurView: c6d23f3d35af2c6282296a2930f61c6e2c788d01
+  ImagePlayerView: f32dbbaf9aea86d25f5ccba7fb67f644b56f9464
   MJRefresh: 6eb09aefa9622f0908fdf42d63c2070478c04c42
   NYSegmentedControl: c24774be62ed17442595d33f74e6eb23bcff3412
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.0

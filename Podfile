@@ -12,6 +12,7 @@ target 'JWProject' do
    pod 'SVProgressHUD', '~> 1.1.2'
    pod 'EAIntroView', '~> 2.7.0'
    pod 'MJRefresh', '~> 1.4.3'
+   pod 'ImagePlayerView', '~> 1.0.2'
 end
 
 
