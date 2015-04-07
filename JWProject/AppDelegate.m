@@ -43,7 +43,7 @@
 {
     if (!_introWindow){
         _introWindow  = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        _introWindow.windowLevel  = UIWindowLevelAlert;
+        _introWindow.windowLevel  = UIWindowLevelStatusBar;
     }
     return _introWindow;
 }
