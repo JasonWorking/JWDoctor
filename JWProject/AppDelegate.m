@@ -106,7 +106,7 @@ static NSString * const sampleDescription4 = @"Nam libero tempore, cum soluta no
     [intro showInView:self.introWindow animateDuration:0.0];
 }
 
-// MARK: EAIntroViewDelegate
+//MARK:  EAIntroViewDelegate
 - (void)introDidFinish:(EAIntroView *)introView
 {
     [self.window makeKeyAndVisible];
