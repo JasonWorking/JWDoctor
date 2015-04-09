@@ -10,6 +10,8 @@
 #import <ImagePlayerView/ImagePlayerView.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 
+
+
 @interface ViewController ()<ImagePlayerViewDelegate>
 
 @property (weak, nonatomic) IBOutlet ImagePlayerView *imagePlayerView;
@@ -22,6 +24,7 @@
     [super viewDidLoad];
     
     
+    [self setTitle:NSLocalizedString(@"Home", @"Home page")];
     
     // Do any additional setup after loading the view, typically from a nib.
     self.imageURLs = @[[NSURL URLWithString:@"http://sudasuta.com/wp-content/uploads/2013/10/10143181686_375e063f2c_z.jpg"],

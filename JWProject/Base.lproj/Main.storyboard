@@ -62,11 +62,11 @@
             </objects>
             <point key="canvasLocation" x="2715" y="-361"/>
         </scene>
-        <!--User-->
+        <!--Navigation Controller-->
         <scene sceneID="kMW-o9-BXk">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="azL-Yb-kXQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="User" image="ic_tab_user" id="Wli-Yi-meJ" customClass="RAMAnimatedTabBarItem" customModule="JWProject" customModuleProvider="target">
+                    <tabBarItem key="tabBarItem" title="" image="ic_tab_user" id="Wli-Yi-meJ" customClass="RAMAnimatedTabBarItem" customModule="JWProject" customModuleProvider="target">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                 <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

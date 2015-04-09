@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Shimmer/FBShimmeringView.h>
+
 
 @interface JWBaseViewController : UIViewController
+
+@property (nonatomic, strong) FBShimmeringView *customTitleView;
+@property (nonatomic, strong) UILabel *customTitleLabel;
+
 
 @end
