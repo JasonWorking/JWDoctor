@@ -100,8 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1CA33DFA1ADBD32F0041E003 /* TableViewManager */,
-				96045F8A1AD57932002ABA76 /* JWBaseViewController.h */,
-				96045F8B1AD57932002ABA76 /* JWBaseViewController.m */,
+				1CA33DFC1ADBD6880041E003 /* Base */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -118,6 +117,39 @@
 				1CA33DF61ADBD3270041E003 /* GTTableViewProtocol.h */,
 			);
 			name = TableViewManager;
+			sourceTree = "<group>";
+		};
+		1CA33DFC1ADBD6880041E003 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1CA33DFF1ADBD6C90041E003 /* BaseModel */,
+				1CA33DFE1ADBD6AE0041E003 /* BaseView */,
+				1CA33DFD1ADBD6990041E003 /* BaseController */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1CA33DFD1ADBD6990041E003 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				96045F8A1AD57932002ABA76 /* JWBaseViewController.h */,
+				96045F8B1AD57932002ABA76 /* JWBaseViewController.m */,
+			);
+			name = BaseController;
+			sourceTree = "<group>";
+		};
+		1CA33DFE1ADBD6AE0041E003 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BaseView;
+			sourceTree = "<group>";
+		};
+		1CA33DFF1ADBD6C90041E003 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BaseModel;
 			sourceTree = "<group>";
 		};
 		1CAE079F1AD4D7590021D79D /* Extern */ = {
