@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CA33DF71ADBD3270041E003 /* GTArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA33DF11ADBD3270041E003 /* GTArrayDataSource.m */; };
+		1CA33DF81ADBD3270041E003 /* GTTableViewDelegater.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA33DF31ADBD3270041E003 /* GTTableViewDelegater.m */; };
+		1CA33DF91ADBD3270041E003 /* GTTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA33DF51ADBD3270041E003 /* GTTableViewManager.m */; };
+		1CA33DFB1ADBD3980041E003 /* GTTableViewProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 1CA33DF61ADBD3270041E003 /* GTTableViewProtocol.h */; };
 		1CAE07AC1AD4D7C70021D79D /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE07A31AD4D7C70021D79D /* RAMBounceAnimation.swift */; };
 		1CAE07AD1AD4D7C70021D79D /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE07A51AD4D7C70021D79D /* RAMFrameItemAnimation.swift */; };
 		1CAE07AE1AD4D7C70021D79D /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE07A71AD4D7C70021D79D /* RAMRotationAnimation.swift */; };
@@ -37,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CA33DF01ADBD3270041E003 /* GTArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTArrayDataSource.h; sourceTree = "<group>"; };
+		1CA33DF11ADBD3270041E003 /* GTArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTArrayDataSource.m; sourceTree = "<group>"; };
+		1CA33DF21ADBD3270041E003 /* GTTableViewDelegater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTableViewDelegater.h; sourceTree = "<group>"; };
+		1CA33DF31ADBD3270041E003 /* GTTableViewDelegater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTableViewDelegater.m; sourceTree = "<group>"; };
+		1CA33DF41ADBD3270041E003 /* GTTableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTableViewManager.h; sourceTree = "<group>"; };
+		1CA33DF51ADBD3270041E003 /* GTTableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTableViewManager.m; sourceTree = "<group>"; };
+		1CA33DF61ADBD3270041E003 /* GTTableViewProtocol.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = GTTableViewProtocol.h; sourceTree = "<group>"; };
 		1CAE07A31AD4D7C70021D79D /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
 		1CAE07A51AD4D7C70021D79D /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
 		1CAE07A71AD4D7C70021D79D /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
@@ -88,10 +99,25 @@
 		1CA33DEF1ADBD0750041E003 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1CA33DFA1ADBD32F0041E003 /* TableViewManager */,
 				96045F8A1AD57932002ABA76 /* JWBaseViewController.h */,
 				96045F8B1AD57932002ABA76 /* JWBaseViewController.m */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		1CA33DFA1ADBD32F0041E003 /* TableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				1CA33DF01ADBD3270041E003 /* GTArrayDataSource.h */,
+				1CA33DF11ADBD3270041E003 /* GTArrayDataSource.m */,
+				1CA33DF21ADBD3270041E003 /* GTTableViewDelegater.h */,
+				1CA33DF31ADBD3270041E003 /* GTTableViewDelegater.m */,
+				1CA33DF41ADBD3270041E003 /* GTTableViewManager.h */,
+				1CA33DF51ADBD3270041E003 /* GTTableViewManager.m */,
+				1CA33DF61ADBD3270041E003 /* GTTableViewProtocol.h */,
+			);
+			name = TableViewManager;
 			sourceTree = "<group>";
 		};
 		1CAE079F1AD4D7590021D79D /* Extern */ = {
@@ -381,17 +407,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA33DF71ADBD3270041E003 /* GTArrayDataSource.m in Sources */,
 				96045F8C1AD57932002ABA76 /* JWBaseViewController.m in Sources */,
 				1CAE07B11AD4D7C70021D79D /* RAMItemAnimationProtocol.swift in Sources */,
 				96CBF7F31AD05CFF008BB4BF /* CoreDataStack.m in Sources */,
+				1CA33DF91ADBD3270041E003 /* GTTableViewManager.m in Sources */,
 				1CAE07B01AD4D7C70021D79D /* RAMAnimatedTabBarController.swift in Sources */,
 				1CAE07AF1AD4D7C70021D79D /* RAMTransitionItemAnimation.swift in Sources */,
 				96CBF7C61ACEDFAE008BB4BF /* JWProject.xcdatamodeld in Sources */,
 				96CBF7C31ACEDFAE008BB4BF /* AppDelegate.m in Sources */,
 				1CAE07AC1AD4D7C70021D79D /* RAMBounceAnimation.swift in Sources */,
 				1CAE07AD1AD4D7C70021D79D /* RAMFrameItemAnimation.swift in Sources */,
+				1CA33DFB1ADBD3980041E003 /* GTTableViewProtocol.h in Sources */,
 				1CAE07AE1AD4D7C70021D79D /* RAMRotationAnimation.swift in Sources */,
 				96CBF7C91ACEDFAE008BB4BF /* ViewController.m in Sources */,
+				1CA33DF81ADBD3270041E003 /* GTTableViewDelegater.m in Sources */,
 				96CBF7C01ACEDFAE008BB4BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
