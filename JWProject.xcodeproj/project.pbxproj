@@ -85,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CA33DEF1ADBD0750041E003 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				96045F8A1AD57932002ABA76 /* JWBaseViewController.h */,
+				96045F8B1AD57932002ABA76 /* JWBaseViewController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		1CAE079F1AD4D7590021D79D /* Extern */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,17 +186,16 @@
 		96CBF7BC1ACEDFAE008BB4BF /* JWProject */ = {
 			isa = PBXGroup;
 			children = (
-				96CBF7F41AD05D04008BB4BF /* Core Data */,
 				96CBF7C11ACEDFAE008BB4BF /* AppDelegate.h */,
 				96CBF7C21ACEDFAE008BB4BF /* AppDelegate.m */,
-				96045F8A1AD57932002ABA76 /* JWBaseViewController.h */,
-				96045F8B1AD57932002ABA76 /* JWBaseViewController.m */,
 				96CBF7C71ACEDFAE008BB4BF /* ViewController.h */,
 				96CBF7C81ACEDFAE008BB4BF /* ViewController.m */,
 				96CBF7CA1ACEDFAE008BB4BF /* Main.storyboard */,
 				96CBF7CD1ACEDFAE008BB4BF /* Images.xcassets */,
 				96CBF7CF1ACEDFAE008BB4BF /* LaunchScreen.xib */,
 				96CBF7C41ACEDFAE008BB4BF /* JWProject.xcdatamodeld */,
+				1CA33DEF1ADBD0750041E003 /* Common */,
+				96CBF7F41AD05D04008BB4BF /* Core Data */,
 				1CAE079F1AD4D7590021D79D /* Extern */,
 				96CBF7BD1ACEDFAE008BB4BF /* Supporting Files */,
 			);
